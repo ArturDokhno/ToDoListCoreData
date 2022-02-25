@@ -31,6 +31,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="b0L-g7-J8v">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="6ux-Lu-DJH">
+                            <connections>
+                                <action selector="deleteTask:" destination="2Rp-La-oMU" id="Pnr-7v-Y57"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="rLo-3m-juc">
                             <connections>
                                 <action selector="plusTask:" destination="2Rp-La-oMU" id="8J1-Ck-ghg"/>
